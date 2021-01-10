@@ -8,7 +8,6 @@ export default function Home() {
         <title>Labor Staffer</title>
         <link rel="icon" href="assets/logo/icon_laucher.png" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Labor-Staffer
