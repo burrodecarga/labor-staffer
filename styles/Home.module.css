@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -49,7 +50,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
@@ -112,6 +113,21 @@
 
 .logo {
   height: 1em;
+}
+
+.button{
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 8px 24px;
+  transition: opacity .3s ease;
+}
+
+.button:hover{
+  opacity: .7;
 }
 
 @media (max-width: 600px) {
